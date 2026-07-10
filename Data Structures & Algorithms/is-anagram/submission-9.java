@@ -6,6 +6,7 @@ class Solution {
 
         int[] count=new int[26];
         for(int x=0;x<s.length();x++){
+            //ASCII
             count[s.charAt(x)-'a']++;
             count[t.charAt(x)-'a']--;
         }
